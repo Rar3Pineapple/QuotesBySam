@@ -18,25 +18,25 @@ body {
 
 .title {
     font-family: "Cormorant";
-    font-size: 8vw;
+    font-size: 8rem;
     font-weight: 600;
     color: #6bab57;
     transition: 0.3s;
 }
 
 .title:hover{
-  font-size: 9vw;
+  font-size: 9rem;
 }
 
 .subtitle {
-    font-size: 5vw;
+    font-size: 4.6rem;
     font-family: "Cinzel";
     font-weight: 100;
 }
 
 .standard_button {
     font-family:"Cormorant";
-    font-size: 3vw;
+    font-size: 3rem;
     background: none;
     border: none;
     transition: 0.3s;
@@ -66,9 +66,9 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     gap: 0px;
   }
   
-  .description { grid-area: description; padding: 3vw;} 
-    #buttons { padding-top: 4vw; animation: 2s ease-out 0s 1 slideInLeft;} 
-        .standard_button {margin-right: 10svw; margin-bottom: 3vw;}
+  .description { grid-area: description; padding: 3rem;} 
+    #buttons { padding-top: 4rem; animation: 2s ease-out 0s 1 slideInLeft;} 
+        .standard_button {margin-right: 10rem; margin-bottom: 3rem;}
     #titles {animation: 1s ease-out 0s 1 slideInLeft;}
   .images { grid-area: images; }
 
