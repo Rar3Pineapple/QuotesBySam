@@ -96,7 +96,7 @@ body {
 
 .standard_button {
     font-family:"Cormorant";
-    font-size: 2vw;
+    font-size: 3vw;
     background: none;
     border: none;
     transition: 0.3s;
@@ -104,9 +104,11 @@ body {
 }
 
 .quote {
+    line-height: 3rem;
     font-family: "Cormorant";
     font-size: 2vw;
     animation: 1s ease-out 0s 1 slideInRight;
+    margin-bottom: 1rem;
 }
 
 .reference {

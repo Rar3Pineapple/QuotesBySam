@@ -63,18 +63,19 @@ body {
 
 .title {
     font-family: "Cormorant";
-    font-size: 7rem;
+    font-size: 9.5rem;
     font-weight: 600;
     color: #6bab57;
     transition: 0.3s;
 }
 
 .title:hover{
-  font-size: 8rem;
+  font-size:10rem;
 }
 
 .subtitle {
-    font-size: 4rem;
+  line-height: 8rem;
+    font-size: 4.4rem;
     font-family: "Cinzel";
     font-weight: 100;
 }
