@@ -90,7 +90,7 @@ body {
 
 /* configuration of specific elements */
 
-html, body {margin: 0; height: 100%; overflow: hidden}
+body {margin: 0; height: 100%; overflow: hidden}
 
 #main_image {
   display: block;
