@@ -114,8 +114,8 @@ body {
     z-index: 0;
     animation: rotation 60s infinite linear;
     opacity: 50%;
-    height: 120rem;
-    width: 120rem;
+    height: 100rem;
+    width: 100rem;
   }
 /* classes */
 

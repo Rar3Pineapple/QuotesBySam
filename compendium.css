@@ -95,7 +95,7 @@ body {
 }
 
 .standard_button {
-    margin-left: 4rem;
+    padding-left: 2rem;
     font-family:"Cormorant";
     font-size: 3vw;
     background: none;
