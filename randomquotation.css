@@ -1,0 +1,162 @@
+/* importing fonts */
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("fonts/Cormorant-Italic-VariableFont_wght.ttf"), url("fonts/Cormorant-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("fonts/Cinzel-VariableFont_wght.ttf")
+}
+
+
+/* specific elements */
+
+body {
+  background-color: #f5e3b3;
+  width: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.layout {
+  z-index: 1;
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid:
+      "main" 3fr
+      "interations" 1fr
+      / 1fr;
+    gap: 8px;
+  }
+  
+#main { 
+    width: 100%;
+    text-align: center;
+    display: flex;
+    grid-area: main;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  #interations { 
+    grid-area: interations; 
+    text-align: center;
+    display: flex;
+    grid-area: main;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #buttons {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  #main_image {
+    position: absolute;
+    z-index: 0;
+    animation: rotation 60s infinite linear;
+    opacity: 50%;
+    height: 100rem;
+    width: 100rem;
+  }
+/* classes */
+
+.standard_button {
+    font-family:"Cormorant";
+    letter-spacing: 0.1vw;
+    font-size: 2vw;
+    background: none;
+    border: none;
+    transition: 0.3s;
+    animation: 1.5s ease-out 0s 1 condense;
+}
+
+.regenerate {
+  letter-spacing: 0.1vw;
+  font-family:"Cormorant";
+  font-size: 3vw;
+  background: none;
+  border: none;
+  transition: 0.3s;
+  animation: 1s ease-out 0s 1 condense;
+}
+
+.regenerate:hover {
+  cursor: grab;
+  letter-spacing: 0.2vw;
+  font-size: 4vw;
+  color: #6bab57;
+}
+
+.quote {
+    overflow-wrap: break-word;
+    letter-spacing: 0.1vw;
+    font-family: "Cormorant";
+    font-size: 5vw;
+    animation: 1.6s ease-out 0s 1 slideInTop;
+    width: 70vw;
+}
+
+.reference {
+  letter-spacing: 0.1vw;
+    font-family: "Cinzel";
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.223);
+    animation: 2s ease-out 0s 1 condense;
+}
+
+/* animations */
+
+@keyframes slideInTop {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0%;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 100%;
+      }
+}
+
+@keyframes condense {
+  0% {
+    letter-spacing: 1vw;
+    opacity: 0;
+  }
+  100% {
+    letter-spacing: 0.1vw;
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+      opacity: 100%;
+  }
+  100% {
+      opacity: 0%;
+  }
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(-360deg);
+  }
+}

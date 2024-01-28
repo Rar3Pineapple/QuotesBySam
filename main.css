@@ -1,0 +1,111 @@
+/* defining fonts */
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("fonts/Cormorant-Italic-VariableFont_wght.ttf"), url("fonts/Cormorant-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("fonts/Cinzel-VariableFont_wght.ttf")
+}
+
+/* configuration of repeated elements */
+
+body {
+    background-color: #f5e3b3;
+}
+
+.title {
+    font-family: "Cormorant";
+    font-size: 8vw;
+    font-weight: 600;
+    color: #6bab57;
+    transition: 0.3s;
+}
+
+.title:hover{
+  font-size: 9vw;
+}
+
+.subtitle {
+    font-size: 5vw;
+    font-family: "Cinzel";
+    font-weight: 100;
+}
+
+.standard_button {
+    font-family:"Cormorant";
+    font-size: 3vw;
+    background: none;
+    border: none;
+    transition: 0.3s;
+}
+
+/* configuration of specific elements */
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+#main_image {
+  display: block;
+  height: 60rem;
+  width: 60rem;
+  margin-top: 30%;
+  margin-left: 10%;
+  animation: rotation 40s infinite linear;
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+  
+    display: grid;
+    grid:
+      "description images" 1fr
+      / 60% 40%;
+    gap: 0px;
+  }
+  
+  .description { grid-area: description; padding: 3vw;} 
+    #buttons { padding-top: 4vw; animation: 2s ease-out 0s 1 slideInLeft;} 
+        .standard_button {margin-right: 10svw; margin-bottom: 3vw;}
+    #titles {animation: 1s ease-out 0s 1 slideInLeft;}
+  .images { grid-area: images; }
+
+/* animations */
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+      opacity: 100%;
+  }
+  100% {
+      opacity: 0%;
+  }
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(-360deg);
+  }
+}

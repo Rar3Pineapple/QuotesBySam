@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotation</title>
+    <link rel="stylesheet" href="randomquotation.css">
+    <script src="randomquotation.js"></script>
+</head>
+<body>
+    <img id="main_image" src="images/logo.svg" alt="archive"/>
+    <section class="layout">
+        <div id="main">
+            <span class="quote">placeholder</span>
+            <span class="reference">placeholder</span>
+        </div>
+        <div id="interations"></div>
+        <button class="regenerate" onclick="generate_quote()">Regenerate Quote</button>
+        <div id="buttons">
+            <button onmouseover="hover_effect(1, 1)" onmouseout="hover_effect(0,1) "id="second_button" class="standard_button" onclick="transition('compendium.html')">Compendium</button>
+            <button onmouseover="hover_effect(1, 0)" onmouseout="hover_effect(0,0) "id="first_button" class="standard_button" onclick="transition('index.html')">Return to Home Page</button>
+        </div>
+      </section>
+</body>
+</html>

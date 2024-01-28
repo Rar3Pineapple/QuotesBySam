@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png"/>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+</head>
+<body onload="initialise()">
+    <section class="layout">
+        <div class="description">
+            <div id="titles">
+                <span class="subtitle">Selected Quotations From Inside the Mind of</span>
+                <span class="title">Fangyuan Cao</span>
+            </div>
+            <div id="buttons">
+                <button id="first_button" onmouseover="hover_effect(1, 0)" onmouseout="hover_effect(0,0) " class="standard_button" onclick="transition('compendium.html')"> > Compendium</button>
+                <button id="second_button" onmouseover="hover_effect(1, 1)" onmouseout="hover_effect(0,1)" class="standard_button" onclick="transition('randomquotation.html')"> > Random Quotation</button>
+            </div>
+        </div>
+        <div class="images">
+            <img id="main_image" src="images/logo.svg" alt="archive"/>
+        </div>
+      </section>
+</body>
+</html>
+
