@@ -114,8 +114,8 @@ body {
     z-index: 0;
     animation: rotation 60s infinite linear;
     opacity: 50%;
-    height: 100rem;
-    width: 100rem;
+    height: 100vw;
+    width: 100vw;
   }
 /* classes */
 
@@ -153,8 +153,8 @@ body {
     font-size: 5vw;
     animation: 1.6s ease-out 0s 1 slideInTop;
     width: 70vw;
-    line-height: 5rem;
-    margin-bottom: 2rem;
+    line-height: 5vw;
+    margin-bottom: 2vw;
 }
 
 .reference {

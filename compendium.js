@@ -12,7 +12,7 @@ function hover_effect(state, caller) {
     let target =  caller == 1 ? first_button : second_button;
     let callmeister = caller == 1 ? second_button : first_button;
     if (state == true) {
-        callmeister.style.fontSize = "5vw";
+        callmeister.style.fontSize = "4vw";
         callmeister.style.color = "#6bab57";
         callmeister.style.cursor = "grab"
         target.style.fontSize = "2vw";

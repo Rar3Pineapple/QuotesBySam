@@ -63,28 +63,28 @@ body {
 
 .title {
     font-family: "Cormorant";
-    font-size: 8rem;
+    font-size: 8vw;
     font-weight: 600;
     color: #6bab57;
     transition: 0.3s;
 }
 
 .title:hover{
-  font-size:9rem;
+  font-size:9vw;
 }
 
 .subtitle {
-  line-height: 7rem;
-    font-size: 4.6rem;
+  line-height: 7vw;
+    font-size: 4vw;
     font-family: "Cinzel";
     font-weight: 100;
 }
 
 .standard_button {
   text-align: left;
-  padding-top: 2rem;
+  padding-top: 2vw;
     font-family:"Cormorant";
-    font-size: 3rem;
+    font-size: 3vw;
     background: none;
     border: none;
     transition: 0.3s;
@@ -96,8 +96,8 @@ body {margin: 0; height: 100%; overflow: hidden}
 
 #main_image {
   display: block;
-  height: 60rem;
-  width: 60rem;
+  height: 60vw;
+  width: 60vw;
   margin-top: 30%;
   margin-left: 10%;
   animation: rotation 40s infinite linear;
@@ -115,13 +115,17 @@ body {margin: 0; height: 100%; overflow: hidden}
     gap: 0px;
   }
   
-  .description { grid-area: description; padding: 3rem;} 
+  .description { grid-area: description; padding: 3vw;} 
     #buttons { 
       display: flex;
       flex-direction: column;
-      padding-top: 4rem; 
+      padding-top: 4vw; 
       animation: 2s ease-out 0s 1 slideInLeft;} 
-    #titles {animation: 1s ease-out 0s 1 slideInLeft;}
+    #titles {
+      display: flex;
+      flex-direction: column;
+      animation: 1s ease-out 0s 1 slideInLeft;
+    }
   .images { grid-area: images; }
 
 /* animations */
