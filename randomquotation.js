@@ -1,6 +1,8 @@
 function transition(site) {
     document.body.style.animation = "fadeOut 1s ease-in 1"
     document.body.addEventListener("animationend", () => {
+        document.getElementsByClassName('layout')[0].remove()
+        document.getElementById("main_image").remove()
         window.location.replace(site);
     })
 }

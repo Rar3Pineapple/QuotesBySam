@@ -3,6 +3,7 @@ initialise();
 function transition(site) {
     document.body.style.animation = "fadeOut 1s ease-in 1"
     document.body.addEventListener("animationend", () => {
+        document.getElementById('layout').remove()
         window.location.replace(site);
     })
 }
