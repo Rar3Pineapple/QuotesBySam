@@ -1,7 +1,20 @@
 {"quotations": [
-    {"quote":"Wonder is the foundation of all philosophy. Inquiry the beginning, ignorance the end.", "reference": "From \"Thoughts on Philosophy\""},
-    {"quote":"I should prefer uneloquent good sense to loquacious folly.", "reference": "From a rebuttal against opposition"},
-    {"quote":"Providence shows no mercy to weak nations, but recognizes the right of existence-only of sound and strong nations.", "reference": "From \"Comments of Law and Order\""},
-    {"quote":"If the only significant history of human thought were to be written, it would have to be history of its successive regrets and impotences.", "reference": "From \"Fragilities of Human Evolution\""},
-    {"quote":"Where is the life we have lost living? \n Where is the wisdom we have lost in knowledge?\n Where is the knowledge we have lost in information?", "reference":"From \"Fragilities of Human Evolution\""}
-]}
+    {"quote":"Wonder is the foundation of all philosophy. Inquiry the beginning, ignorance the end.", 
+    "reference": "From \"Thoughts on Philosophy\""},
+    {"quote":"I should prefer uneloquent good sense to loquacious folly.", 
+    "reference": "From a rebuttal against opposition"},
+    {"quote":"Providence shows no mercy to weak nations, but recognizes the right of existence-only of sound and strong nations.", 
+    "reference": "From \"Comments of Law and Order\""},
+    {"quote":"If the only significant history of human thought were to be written, it would have to be history of its successive regrets and impotences.", 
+    "reference": "From \"Fragilities of Human Evolution\""},
+    {"quote":"Where is the life we have lost living? \n Where is the wisdom we have lost in knowledge?\n Where is the knowledge we have lost in information?", 
+    "reference":"From \"Fragilities of Human Evolution\""},
+    {"quote": "The sinews of war are infinite money.",
+    "reference":"From \"Dictation of the Romans\""},
+    {"quote": "Two things fill the mind with ever-new and increasing admiration and awe, the more often and steadily we reflect upon them: the starry heavens above me and the moral law within me.",
+    "reference":"From \"A Selection of Quotations from the magnanimous Lian Zhihao\""},
+    {"quote": "lmao how did you get disowned?????? like how do you get your parents to hate you ? you probably play league 🤡🤡🤡🤡🤡",
+    "reference":"From \"On the Art of Disinheritation\""},
+    {"quote": "Z=∬DAμdωΔL(A)δ(F[Aωμ])eiS[Aμ]",
+    "reference":"From \"40 Simple Physics Questions for Elementary Students\""}
+  ]}
